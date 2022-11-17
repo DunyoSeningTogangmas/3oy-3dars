@@ -8,6 +8,8 @@ if (ball < 80) {
   let summa = +prompt("sizda bor pulni kiriting");
   if (summa < 3000) {
     alert("siz o'qishga kira olmadingiz");
+  } else {
+    alert("tabriklayman siz o'qishga kirdingiz ");
   }
 } else if (ball >= 100 && ball < 150) {
   alert(
@@ -16,6 +18,8 @@ if (ball < 80) {
   let summa2 = +prompt("sizda bor pulni kiriting");
   if (summa2 < 2000) {
     alert("siz o'qishga kira olmadingiz");
+  } else {
+    alert("tabriklayman siz o'qishga kirdingiz");
   }
 } else if (ball >= 150 && ball < 180) {
   alert("siz grant asosida o'qishga qabul qilindingiz))");
